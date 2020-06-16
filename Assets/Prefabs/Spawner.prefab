@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6440251786343837397}
   - component: {fileID: 4461801319932351748}
   - component: {fileID: 8584732970147036880}
+  - component: {fileID: 2878750525179617769}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 172e91ba4aaceca41aa9076030a42c66, type: 2}
+  - {fileID: 2100000, guid: db800fed118362c468215f60afebefba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,3 +95,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &2878750525179617769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007253913483089591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81205675796dd54ebd106582c10d419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 0}
+  spawnRateMin: 0.5
+  spawnRateMax: 3

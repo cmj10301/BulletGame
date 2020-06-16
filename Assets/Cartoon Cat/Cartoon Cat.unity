@@ -229,7 +229,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &427188914
 GameObject:
@@ -339,7 +339,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &474256402
 GameObject:
@@ -426,13 +426,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474256402}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 20, z: 0}
+  m_LocalRotation: {x: 0.18301274, y: 0.6830127, z: -0.18301274, w: 0.6830127}
+  m_LocalPosition: {x: -18, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 70, z: -20}
+  m_LocalEulerAnglesHint: {x: 30, y: 90, z: 0}
 --- !u!1001 &743447128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1 &1480244493
 GameObject:
@@ -789,7 +789,7 @@ Transform:
   m_GameObject: {fileID: 1519297405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -952,7 +952,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!1001 &1777206053411460381
 PrefabInstance:
@@ -1030,11 +1030,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4461801319932351748, guid: 5430541934abda640a84ee97fb9b94c7,
+    - target: {fileID: 2878750525179617769, guid: 5430541934abda640a84ee97fb9b94c7,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: bulletPrefab
       value: 
-      objectReference: {fileID: 2100000, guid: db800fed118362c468215f60afebefba, type: 2}
+      objectReference: {fileID: 7633671461103643769, guid: adb5f622981db0a4892d828ebc9cd68b,
+        type: 3}
     - target: {fileID: 7007253913483089591, guid: 5430541934abda640a84ee97fb9b94c7,
         type: 3}
       propertyPath: m_Name
@@ -1043,7 +1044,7 @@ PrefabInstance:
     - target: {fileID: 8047064872584474567, guid: 5430541934abda640a84ee97fb9b94c7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: -8.36
       objectReference: {fileID: 0}
     - target: {fileID: 8047064872584474567, guid: 5430541934abda640a84ee97fb9b94c7,
         type: 3}
@@ -1053,7 +1054,7 @@ PrefabInstance:
     - target: {fileID: 8047064872584474567, guid: 5430541934abda640a84ee97fb9b94c7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8047064872584474567, guid: 5430541934abda640a84ee97fb9b94c7,
         type: 3}
